@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Merienda', cursive;
+    background-color: #FFEDD1;
+}
+
+
+/* ----------------------------------------------------------- cabeçalho e rodapé */
+
+#header img {
+    max-height: 80px;
+    max-width: 120px;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+
+#header,
+#footer {
+    height: 80px;
+    background-color: #78211F;
+}
+
+#footer {
+    line-height: 80px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+#footer img {
+    width: 20px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* ----------------------------------------------------------- carrossel */
+
+.containerHeader {
+    position: relative;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+}
+
+.back,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bolder;
+    font-size: 28px;
+    transition: .3s;
+}
+
+.next {
+    right: 0;
+}
+
+.n_text {
+    color: white;
+    background-color: black;
+    font-size: 28px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.wall {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.2s;
+    animation-name: fade;
+    animation-duration: 1.2s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.6;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: 0.6;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* ----------------------------------------------------------- menu das páginas das maravilhas */
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+
+/* ----------------------------------------------------------- cards informativos */
+
+.shadow {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 7px 5px 5px rgba(134, 134, 134, 0.664);
+    margin: 2px 90px;
+    padding: 15px 25px;
+    margin-bottom: 50px;
+}
+
+#title,
+.subtitle {
+    text-align: center;
+}
+
+#title {
+    font-size: 30px;
+}
+
+.subtitle {
+    font-size: 30px;
+}
+
+#text {
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+}
+
+#text2 h1 {
+    margin: 45px 0 5px 0;
+}
+
+#text2 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.info ul li {
+    list-style-type: none;
+}
+
+ul {
+    padding-left: 0;
+    font-size: 20px;
+}
+
+
+/* ----------------------------------------------------------- elementos no geral */
+
+.containerBody,
+.containerHeader {
+    margin: auto;
+    padding: 0;
+    width: 100%;
+}
+
+.containerBody {
+    flex-direction: row;
+    max-height: 500px;
+}
+
+.containerMural {
+    display: flex;
+    flex-shrink: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+}
+
+
+/* ----------------------------------------------------------- bandeiras*/
+
+.box {
+    max-width: 150px;
+    min-height: 30px;
+    border-radius: 10px;
+    margin: 10px 20px 10px 20px;
+    cursor: pointer;
+}
+
+#line1,
+#line2,
+#line3 {
+    display: flex;
+    justify-content: center;
+}
+
+.box img {
+    max-width: 150px;
+    min-height: 30px;
+    border-radius: 10px;
+}
+
+.box img:hover {
+    border: #78211F 2px dotted;
+    box-sizing: border-box;
+    background-color: #78201f7e;
+}
+
+.boxM img {
+    max-width: 100px;
+    min-height: 80px;
+    border-radius: 50%;
+    box-shadow: 7px 5px 5px rgba(134, 134, 134, 0.664);
+    cursor: pointer;
+}
+
+
+/* ----------------------------------------------------------- mural das maravilhas*/
+
+.mural {
+    min-width: 550px;
+    min-height: 550px;
+    margin: 15px 45px 45px 45px;
+}
+
+.mural img {
+    border-radius: 15px;
+    border: solid 2px #78211F;
+}
+
+.banner {
+    background-color: white;
+    max-width: 500px;
+    max-height: 400px;
+    border-radius: 15px;
+    margin: 15px 45px 45px 45px;
+}
+
+.banner img {
+    max-width: 500px;
+    max-height: 400px;
+    border-radius: 15px;
+}
+
+.acao {
+    text-align: center;
+    margin: 15px 45px 45px 45px;
+}
+
+
+/* ----------------------------------------------------------- formulário*/
+
+input[type=submit] {
+    border: none;
+    border-radius: 10px;
+    background-color: #78211F;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    font-weight: bold;
+}
+
+#l1,
+#l2,
+#l3 {
+    display: flex;
+}
+
+#l4 h2 {
+    margin: 50px 0 20px 0;
+}
+
+form input,
+textarea {
+    margin: 10px;
+    border-radius: 5px;
+    border: solid 2px #78211F;
+}
+
+form input {
+    width: 300px;
+    padding: 5px;
+}
+
+textarea {
+    min-width: 250px;
+    min-height: 150px;
+    font-size: 25px;
+}
+
+#formulario .subtitle {
+    font-size: 25px;
+    margin: 10px 15px 40px 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+label p {
+    font-size: 15px;
+}
+
+#titleF {
+    font-size: 20px;
+    text-align: center;
+    margin: 40px 60px 30px 80px;
+}
+
+#inputUF {
+    width: 70px;
+}
+
+button {
+    border: none;
+    background-color: #78211F;
+    color: white;
+    font-size: 20px;
+    border-radius: 7px;
+}
+
+.shadow button {
+    text-align: center;
+}
+
+button p {
+    margin: 15px 20px;
+}
+
+
+/* ----------------------------------------------------------- ajuste de responsividade*/
+
+@media screen and (max-width: 768px) {
+    .containerMural {
+        display: block;
+    }
+    #header img {
+        text-align: center;
+    }
+    #header #imagem {
+        text-align: center;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    #footer h5 {
+        font-size: 10px;
+    }
+    #footer img {
+        width: 10px;
+    }
+    .mural {
+        min-width: 250px;
+        min-height: 250px;
+    }
+    .shadow {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 7px 5px 5px rgba(134, 134, 134, 0.664);
+        margin: 2px 12px;
+        padding: 5px 10px;
+        margin-bottom: 50px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    #title h1 {
+        font-size: 50px;
+        margin: 20px 0 20px 0;
+    }
+    .acao h1 {
+        font-size: 20px;
+    }
+    #text h1 {
+        font-size: 20px;
+    }
+    .boxM img {
+        max-width: 50px;
+        min-height: 30px;
+    }
+    .info ul li {
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .info {
+        padding: 0 20px 0 20px;
+    }
+    .info h2 {
+        text-align: center;
+        margin: 0;
+    }
+    h4 {
+        text-align: center;
+        font-size: 25px;
+        margin: 7px 0px 3px 0px;
+    }
+    ul {
+        margin: 0 20px 0 20px;
+        font-size: 15px;
+    }
+    /* ------------------------------------------------------- formulário */
+    #l1,
+    #l3 {
+        display: flex;
+    }
+    #inputCidade {
+        width: 120px;
+    }
+    #inputNome {
+        width: 150px;
+    }
+    #inputMaravilha {
+        width: 130px;
+    }
+    #l4 {
+        font-size: 15px;
+    }
+    textarea {
+        width: 20px;
+        height: 40px;
+        font-size: 25px;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #form {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    label p {
+        font-size: 15px;
+    }
+    #titleF {
+        font-size: 20px;
+        text-align: center;
+        margin: 40px 60px 30px 80px;
+    }
+    #inputUF {
+        width: 50px;
+    }
+    button p {
+        margin: 5px 10px;
+    }
+}

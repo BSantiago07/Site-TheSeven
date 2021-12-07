@@ -1,0 +1,72 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <script src="./js/script.js"></script>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheSeven | Inscrição</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!-- ----------------------------------------------------------- cabeçalho -->
+    <div id="header">
+        <div id="imagem">
+            <a href="index.html"><img src="./img/logo.png"></a>
+        </div>
+
+    </div>
+
+    <div id="titleF">
+        <h1>O que deveria ser considerado(a) uma das sete maravilhas para você?</h1>
+    </div>
+
+    <!-- ----------------------------------------------------------- card formulário -->
+    <div class="shadow" id="formulario">
+        <div class="subtitle">
+            No mundo existem sete maravilhas, mas será que apenas elas realmente são maravilhosas para nós?
+        </div>
+
+        <div id="form">
+            <form action="index.html">
+                <div id="l1">
+                    <label> <p>Nome Completo</p> </label>
+                    <input type="text" id="inputNome" required>
+                </div>
+                <div id="l2">
+                    <label> <p>Cidade</p> </label>
+                    <input type="text" id="inputCidade" required>
+
+                    <label>  <p>UF</p> </label>
+                    <input type="text" maxlength="2" id="inputUF" required>
+                </div>
+                <div id="l3">
+                    <label> <p>Nome da Maravilha</p> </label>
+                    <input type="text" id="inputMaravilha" required>
+                </div>
+                <div id="l4">
+                    <h2> Por que isso deveria ser considerado(a) uma das 7 maravilhas para você?</h2>
+                    <textarea cols="50" rows="10" maxlength="500" required></textarea>
+                </div>
+                <div id="l5">
+                    <button onclick="validacao()">
+                        <p>Enviar</p> 
+                    </button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <!-- ----------------------------------------------------------- rodapé -->
+    <div id="footer">
+        <h5>Designed by Brenda Santiago</h5>
+    </div>
+</body>
+
+</html>

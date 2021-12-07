@@ -1,0 +1,113 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheSeven</title>
+</head>
+
+<body>
+    <!-- ----------------------------------------------------------- cabeçalho -->
+    <div id="header">
+        <div id="imagem">
+            <a href="index.html"> <img src="./img/logo.png"> </a>
+        </div>
+    </div>
+
+    <!-- ----------------------------------------------------------- carrossel -->
+    <div class="containerHeader" reload="slide1()">
+        <div class="wall" id="wall1">
+            <img src="./img/slide01.png">
+        </div>
+
+        <div class="wall" id="wall2">
+            <img src="./img/slide02.png">
+        </div>
+
+        <div class="wall" id="wall3">
+            <img src="./img/slide03.png">
+        </div>
+
+        <a class="back" onclick="plusWalls(-1)">&#10094</a>
+        <a class="next" onclick="plusWalls(1)">&#10095</a>
+    </div>
+
+    <!-- ----------------------------------------------------------- corpo bandeiras -->
+    <div id="text">
+        <h1>Escolha uma das bandeiras abaixo e descubra suas maravilhas</h1>
+    </div>
+
+    <div class="containerBody">
+        <div class="line" id="line1">
+            <div class="box" id="b1">
+                <a href="italia.html"> <img src="./img/italia.png"> </a>
+            </div>
+            <div class="box" id="b2">
+                <a href="china.html"> <img src="./img/china.png"> </a>
+            </div>
+            <div class="box" id="b3">
+                <a href="india.html"> <img src="./img/india.png"> </a>
+            </div>
+            <div class="box" id="b4">
+                <a href="peru.html"> <img src="./img/peru.jpg"> </a>
+            </div>
+        </div>
+
+        <div class="line" id="line2">
+            <div class="box" id="b5">
+                <a href="egito.html"> <img src="./img/egito.jpg"> </a>
+            </div>
+            <div class="box" id="b6">
+                <a href="grecia.html"> <img src="./img/grecia.jpg"> </a>
+            </div>
+            <div class="box" id="b7">
+                <a href="mexico.html"> <img src="./img/mexico.png"> </a>
+            </div>
+        </div>
+
+        <div class="line" id="line3">
+            <div class="box" id="b9">
+                <a href="brasil.html"> <img src="./img/brasil.gif"> </a>
+            </div>
+            <div class="box" id="b10">
+                <a href="turquia.html"> <img src="./img/turquia.png"> </a>
+            </div>
+            <div class="box" id="b11">
+                <a href="jordania.html"> <img src="./img/jordania.png"> </a>
+            </div>
+            <div class="box" id="b8">
+                <a href="iraque.html"> <img src="./img/iraque.png"> </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------------------------------------------- corpo mural -->
+    <div id="text2">
+        <h1>Mural das Maravilhas</h1>
+    </div>
+
+    <div class="containerMural">
+        <div class="mural">
+            <img src="./img/mural.png">
+        </div>
+
+        <div class="acao">
+            <h1>O que deveria ser considerado(a) uma das sete maravilhas para você?</h1>
+            <a href="inscricao.html">
+                <p><input type="submit" value="Inscreva sua maravilha" required></p>
+            </a>
+        </div>
+    </div>
+
+    <!-- ----------------------------------------------------------- rodapé -->
+    <div id="footer">
+        <h5> <img src="./img/github.png"> <a href="https://github.com/BSantiago07">BSantiago07</a> | <img src="./img/email.png"> brendamirelle@gmail.com | <img src="./img/linkedin.png"> <a href="https://www.linkedin.com/in/brenda-santiago-90a263203/">Brenda Santiago </a></h5>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
