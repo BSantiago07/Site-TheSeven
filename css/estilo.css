@@ -213,7 +213,8 @@ img {
 }
 
 .box img:hover {
-    border: #78211F 2px dotted;
+    transition: 0.5s;
+    opacity: .8;
     box-sizing: border-box;
     background-color: #78201f7e;
 }
