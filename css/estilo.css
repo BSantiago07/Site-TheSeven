@@ -6,6 +6,13 @@ body {
     background-color: #FFEDD1;
 }
 
+body::-webkit-scrollbar {
+    width: 12px
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #78201F;
+}
 
 /* ----------------------------------------------------------- cabeçalho e rodapé */
 
