@@ -235,6 +235,12 @@ img {
 }
 
 
+.boxM img:hover {
+    transition: 0.2s;
+    opacity: .8;
+}
+
+
 /* ----------------------------------------------------------- mural das maravilhas*/
 
 .mural {
